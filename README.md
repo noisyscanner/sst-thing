@@ -40,7 +40,7 @@ SST 3.17.14  ready!
 |  Created     MyCron sst:aws:Cron → MyCronPermission aws:lambda:Permission
 |  Deleted     MyCron sst:aws:Cron → MyCronPermission aws:lambda:Permission
 
-↗  Permalink   https://sst.dev/u/f72a97be
+↗  Permalink   https://sst.dev/u/xxxxx
 
 ✓  Generated
 
