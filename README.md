@@ -3,7 +3,7 @@
 ## Background
 
 We create a `live` alias for each of our deployed Lambda functions.
-Any resources that point to the alias, for example crons, bucket notifications, or API Gateway routes always point to this alias rather than `$LATEST` or a specific version.
+Any resources that point to the function, for example crons, bucket notifications, or API Gateway routes always point to this alias rather than `$LATEST` or a specific version.
 This ensures that newly deployed function versions are smoke tested before they become active.
 
 This is done using `aws.lambda.Alias`, as SST does not appear to provide this natively.
